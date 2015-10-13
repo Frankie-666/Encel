@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Encel</id>
+    <version>1.0.0-pre</version>
+    <title>Encel</title>
+    <authors>simply.io</authors>
+    <owners>Andreas Oldeskog</owners>
+    <licenseUrl>https://github.com/simplyio/encel-cms/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/simplyio/encel-cms</projectUrl>
+    <iconUrl>http://encel.co/assets/images/logos/encel-favicon-128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A flat file micro CMS that let's you utilize the full .NET framework.</description>
+    <summary></summary>
+    <releaseNotes>See release notes at Github: https://github.com/encel/encel/releases </releaseNotes>
+    <tags>flat file cms markdown yaml frontmatter shortcode</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Encel.Core" version="" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Tools\Install.ps1" target="tools" />
+    <file src="..\Encel.TemplateSite\App_Start\EncelConfig.cs.pp" target="content\App_Start\" />
+    <file src="..\Encel.TemplateSite\Views\Web.config.transform" target="content\Views\" />
+    <file src="..\Encel.TemplateSite\Models\Article.cs.pp" target="content\Models\" />
+    <file src="..\Encel.TemplateSite\Controllers\ArticleController.cs.pp" target="content\Controllers\" />
+    <file src="..\Encel.TemplateSite\Views\Article\Index.cshtml.pp" target="content\Views\Article\" />
+    <file src="..\Encel.TemplateSite\App_Data\hello-world.md" target="content\App_Data\" />
+  </files>
+</package>

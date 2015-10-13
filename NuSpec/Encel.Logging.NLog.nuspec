@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Encel.Logging.NLog</id>
+    <version>1.0.0-pre</version>
+    <title>Encel.Logging.NLog</title>
+    <authors>simply.io</authors>
+    <owners>Andreas Oldeskog</owners>
+    <licenseUrl>https://github.com/simplyio/encel-cms/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/simplyio/encel-cms</projectUrl>
+    <iconUrl>http://encel.co/assets/images/logos/encel-favicon-128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A flat file micro CMS that let's you utilize the full .NET framework.</description>
+    <summary></summary>
+    <releaseNotes>See release notes at Github: https://github.com/encel/encel/releases </releaseNotes>
+    <tags>encel logging nlog</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Encel.Core" version="" />
+        <dependency id="NLog" version="4.1.2" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Tools\Install.ps1" target="tools" />
+    <file src="..\Encel.Logging.NLog\bin\Release\Encel.Logging.NLog.dll" target="lib\net45\" />
+  </files>
+</package>

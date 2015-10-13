@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Encel.Core</id>
+    <version>1.0.0-pre</version>
+    <title>Encel.Core</title>
+    <authors>simply.io</authors>
+    <owners>Andreas Oldeskog</owners>
+    <licenseUrl>https://github.com/simplyio/encel-cms/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/simplyio/encel-cms</projectUrl>
+    <iconUrl>http://encel.co/assets/images/logos/encel-favicon-128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A flat file micro CMS that let's you utilize the full .NET framework.</description>
+    <summary></summary>
+    <releaseNotes>See release notes at Github: https://github.com/encel/encel/releases </releaseNotes>
+    <tags>flat file cms markdown yaml frontmatter shortcode</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="MarkdownDeep.NET" version="1.5" />
+        <dependency id="YamlDotNet" version="3.7.0" />
+        <dependency id="Shortcoder" version="0.2.0-alpha" />
+        <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\Encel\bin\Release\Encel.dll" target="lib\net45\" />
+  </files>
+</package>

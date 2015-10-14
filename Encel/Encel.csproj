@@ -39,7 +39,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Shortcoder, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Shortcoder.0.2.0-alpha\lib\net45\Shortcoder.dll</HintPath>
+      <HintPath>..\packages\Shortcoder.0.2.0\lib\net45\Shortcoder.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

@@ -10,7 +10,7 @@ namespace Encel.Content
             var contentDirectoryPath = AppDomain.CurrentDomain.GetData("DataDirectory").ToString();
             
             ContentDirectoryPath = contentDirectoryPath;
-            FileExtension = EncelApplication.Configuration.AppSettings.FileExtension;
+            FileExtension = "md";
         }
 
         public string ContentDirectoryPath { get; set; }

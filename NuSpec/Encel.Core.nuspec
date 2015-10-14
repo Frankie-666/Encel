@@ -11,7 +11,7 @@
     <iconUrl>http://encel.co/assets/images/logos/encel-favicon-128.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
-      Package containing core components for Encel. If you are installing Encel for the first time, look for the package called "Encel" instead.
+      This package contains core components for Encel. If you are installing Encel for the first time, please look at the package called "Encel" instead.
       
       Encel is a lightweight flat-file CMS that let's you create web pages using Markdown and Shortcodes.
     </description>

@@ -6,14 +6,20 @@
     <title>Encel.Logging.NLog</title>
     <authors>simply.io</authors>
     <owners>Andreas Oldeskog</owners>
-    <licenseUrl>https://github.com/simplyio/encel-cms/blob/master/LICENSE.txt</licenseUrl>
-    <projectUrl>https://github.com/simplyio/encel-cms</projectUrl>
+    <licenseUrl>https://github.com/encel/Encel/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/encel/Encel</projectUrl>
     <iconUrl>http://encel.co/assets/images/logos/encel-favicon-128.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A flat file micro CMS that let's you utilize the full .NET framework.</description>
-    <summary></summary>
-    <releaseNotes>See release notes at Github: https://github.com/encel/encel/releases </releaseNotes>
-    <tags>encel logging nlog</tags>
+    <description>
+      This adds support for logging using NLog in Encel. After installing this package you need to configure Encel to use the NLogFactory in EncelConfig.cs.
+
+      config.UseLogger(new NLogFactory());
+
+      Encel is a lightweight flat-file CMS that let's you create web pages using Markdown and Shortcodes.
+    </description>
+    <summary>Adding NLog logging support to Encel.</summary>
+    <releaseNotes>See release notes at Github: https://github.com/encel/Encel/releases </releaseNotes>
+    <tags>logging nlog flat file cms markdown yaml frontmatter shortcode</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.5">
         <dependency id="Encel.Core" version="" />

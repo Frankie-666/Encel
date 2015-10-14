@@ -6,13 +6,17 @@
     <title>Encel</title>
     <authors>simply.io</authors>
     <owners>Andreas Oldeskog</owners>
-    <licenseUrl>https://github.com/simplyio/encel-cms/blob/master/LICENSE.txt</licenseUrl>
-    <projectUrl>https://github.com/simplyio/encel-cms</projectUrl>
+    <licenseUrl>https://github.com/encel/Encel/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/encel/Encel</projectUrl>
     <iconUrl>http://encel.co/assets/images/logos/encel-favicon-128.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A flat file micro CMS that let's you utilize the full .NET framework.</description>
-    <summary></summary>
-    <releaseNotes>See release notes at Github: https://github.com/encel/encel/releases </releaseNotes>
+    <description>
+      Encel is a lightweight flat-file CMS that let's you create web pages using Markdown and Shortcodes.
+      
+      This package needs to be installed in a web project. See http://encel.co/docs for more information.
+    </description>
+    <summary>Encel is a lightweight flat-file CMS that let's you create web pages using Markdown and Shortcodes.</summary>
+    <releaseNotes>See release notes at Github: https://github.com/encel/Encel/releases </releaseNotes>
     <tags>flat file cms markdown yaml frontmatter shortcode</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.5">

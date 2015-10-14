@@ -22,7 +22,7 @@
     <tags>logging nlog flat file cms markdown yaml frontmatter shortcode</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.5">
-        <dependency id="Encel.Core" version="" />
+        <dependency id="Encel.Core" version="0.1.0" />
         <dependency id="NLog" version="4.1.2" />
       </group>
     </dependencies>

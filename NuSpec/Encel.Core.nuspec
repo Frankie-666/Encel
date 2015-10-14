@@ -22,7 +22,7 @@
       <group targetFramework=".NETFramework4.5">
         <dependency id="MarkdownDeep.NET" version="1.5" />
         <dependency id="YamlDotNet" version="3.7.0" />
-        <dependency id="Shortcoder" version="0.2.0-alpha" />
+        <dependency id="Shortcoder" version="0.2.0" />
         <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
       </group>
     </dependencies>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>Encel</id>
-    <version>1.0.0-pre</version>
+    <version>0.0.0</version>
     <title>Encel</title>
     <authors>simply.io</authors>
     <owners>Andreas Oldeskog</owners>
@@ -20,7 +20,7 @@
     <tags>flat file cms markdown yaml frontmatter shortcode</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.5">
-        <dependency id="Encel.Core" version="0.1.0" />
+        <dependency id="Encel.Core" version="$packageVersion$" />
       </group>
     </dependencies>
   </metadata>

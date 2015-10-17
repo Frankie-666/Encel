@@ -15,9 +15,8 @@ Install-Package Encel
 
 ## NuGet Packages
 
-Package  | NuGet |
+Package   | NuGet
 :-------- | :------------ 
 Encel                | [![NuGet](https://img.shields.io/nuget/v/Encel.svg?style=flat-square)](https://www.nuget.org/packages/Encel/)
 Encel.Core           | [![NuGet](https://img.shields.io/nuget/v/Encel.Core.svg?style=flat-square)](https://www.nuget.org/packages/Encel.Core/)
 Encel.Logging.NLog   | [![NuGet](https://img.shields.io/nuget/v/Encel.Logging.NLog.svg?style=flat-square)](https://www.nuget.org/packages/Encel.Logging.NLog/)
-

@@ -19,6 +19,17 @@
 # issue-labels-exclude:
 # - Internal Refactoring
 
+create:
+   include-footer: true
+   footer-includes-milestone: true
+   milestone-replace-text: '{milestone}'
+   footer-heading: Install from NuGet
+   footer-content: |
+     The following NuGet packages are available for download from this release.
+        
+     - [Encel](https://www.nuget.org/packages/Encel/{milestone})  - v{milestone}
+     - [Encel.Core](https://www.nuget.org/packages/Encel.Core/{milestone}) - v{milestone}
+     - [Encel.Logging.NLog](https://www.nuget.org/packages/Encel.Logging.NLog/{milestone}) - v{milestone}
 
 export:
    include-created-date-in-title: true

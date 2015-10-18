@@ -1,0 +1,30 @@
+# DOCS: https://gitreleasemanager.readme.io/docs/default-configuration
+
+# create:
+#   include-footer: true | false
+#   footer-heading: Where to get it
+#   footer-content: You can download this release from [chocolatey](https://chocolatey.org/packages/chocolateyGUI/{milestone}
+#   footer-includes-milestone: true | false
+#   milestone-replace-text: '{milestone}'
+# export:
+#   include-created-date-in-title: true | false
+#   created-date-string-format: MMMM dd, yyyy
+#   perform-regex-removal: true | false
+#   regex-text: '### Where to get it(\r\n)*You can .*\)'
+#   multiline-regex: true | false
+# issue-labels-include:
+# - Bug
+# - Feature
+# - Improvement
+# issue-labels-exclude:
+# - Internal Refactoring
+
+
+export:
+   include-created-date-in-title: true
+   created-date-string-format: MMMM dd, yyyy
+   
+issue-labels-include:
+ - Bug
+ - Feature
+ - Improvement

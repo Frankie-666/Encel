@@ -1,7 +1,6 @@
 # Encel
 
 [![Twitter](https://img.shields.io/badge/Twitter-encelcms-blue.svg?style=flat-square)](https://twitter.com/encelcms)
-[![NuGet downloads](https://img.shields.io/nuget/dt/Encel.svg?style=flat-square)](https://www.nuget.org/packages/Encel)
 
 > Encel is a lightweight flat-file CMS that let's you create web pages using Markdown and Shortcodes.
 
